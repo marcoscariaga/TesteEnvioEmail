@@ -1,0 +1,149 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "AE.Net.Mail/1.7.10": {
+        "type": "package",
+        "compile": {
+          "lib/net45/AE.Net.Mail.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net45/AE.Net.Mail.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Agenda.Messages/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Agenda.Messages.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Agenda.Messages.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AE.Net.Mail/1.7.10": {
+      "sha512": "qOeui+HJQkonh7OCVfOLcuQtzsFYrNSLfKy8BMvnP237uDUSCn/9OT1Xt6Sr/pqOYbOgEFvUKH6Z2oa5r8IAfg==",
+      "type": "package",
+      "path": "ae.net.mail/1.7.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ae.net.mail.1.7.10.nupkg.sha512",
+        "ae.net.mail.nuspec",
+        "lib/net40/AE.Net.Mail.dll",
+        "lib/net40/AE.Net.Mail.pdb",
+        "lib/net45/AE.Net.Mail.dll",
+        "lib/net45/AE.Net.Mail.pdb"
+      ]
+    },
+    "Agenda.Messages/1.0.0": {
+      "type": "project",
+      "path": "../../ProjetoAgendaAspNetMVC/Agenda.Messages/Agenda.Messages.csproj",
+      "msbuildProject": "../../ProjetoAgendaAspNetMVC/Agenda.Messages/Agenda.Messages.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "AE.Net.Mail >= 1.7.10",
+      "Agenda.Messages >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\40652503\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Projetos\\TesteEnvioEmail\\TesteEnvioEmail\\TesteEnvioEmail.csproj",
+      "projectName": "TesteEnvioEmail",
+      "projectPath": "C:\\Projetos\\TesteEnvioEmail\\TesteEnvioEmail\\TesteEnvioEmail.csproj",
+      "packagesPath": "C:\\Users\\40652503\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos\\TesteEnvioEmail\\TesteEnvioEmail\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\40652503\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Projetos\\ProjetoAgendaAspNetMVC\\Agenda.Messages\\Agenda.Messages.csproj": {
+              "projectPath": "C:\\Projetos\\ProjetoAgendaAspNetMVC\\Agenda.Messages\\Agenda.Messages.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "AE.Net.Mail": {
+            "target": "Package",
+            "version": "[1.7.10, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AE.Net.Mail 1.7.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AE.Net.Mail",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

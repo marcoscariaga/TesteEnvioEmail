@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "TesteEnvioEmail/1.0.0": {
+        "dependencies": {
+          "Agenda.Messages": "1.0.0"
+        },
+        "runtime": {
+          "TesteEnvioEmail.dll": {}
+        }
+      },
+      "Agenda.Messages/1.0.0": {
+        "runtime": {
+          "Agenda.Messages.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TesteEnvioEmail/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Agenda.Messages/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
